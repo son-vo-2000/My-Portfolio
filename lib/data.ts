@@ -1,4 +1,8 @@
 import test from "../public/images/test.jpg";
+import quizImage from "../public/images/Screenshot 2023-12-15 112944.png";
+import getFitImage from "../public/images/getfit.png";
+import aiImage from "../public/images/ai.png";
+import blogImage from '../public/images/blog.png'
 
 export const navLinks = [
   { name: "Home", location: "#home" },
@@ -10,51 +14,53 @@ export const navLinks = [
 
 export const projects = [
   {
-    title: "Get Fit",
-    desc: "A coaching and managing clients' execercises flatform for everyone. Users can easily register and login, make a new client. User can create, edit, mark and delete client's exercises",
+    title: "AI Image Generator",
+    desc: "Created AI image generator by fetching and retrieving data from OpenAI API. The application generates AI images base on users' input",
+    technologiesTag: ["Next.js", "Tailwind CSS", "typescript"],
+    websiteUrl: "https://ai-image-app.vercel.app/",
+    imageUrl: aiImage,
+  },
+  {
+    title: "Blog Application",
+    desc: "A Full-Stack blog application that allows users to create, delete and update their own blogs and view other people blogs. The application also lets users to sort blogs by categories, provides login system",
+    technologiesTag: ["React", "CSS", "Node.js", "Express", "MySQL"],
+    websiteUrl: "https://blog-client-8cv5.onrender.com/",
+    imageUrl: blogImage,
+  },
+  {
+    title: "Manage Your Fitness",
+    desc: "A Full-stack web application that allow users to keep track of their clients execirses. The application is based on CRUD concept, that's used to create, read, update & delete data.",
+    note: "Demo: ken | 123456",
     technologiesTag: ["React", "CSS", "Node.js", "Express", "MongoDB"],
-    websiteUrl: "https://www.google.com/",
-    imageUrl: test,
+    websiteUrl: "https://getfit-erht.onrender.com/",
+    imageUrl: getFitImage,
   },
   {
-    title: "Quick Blog",
-    desc: "A Full-Stack blog application that allows users to create, delete and update their own blogs and view other people blogs. The application also let users to sort blogs by categories",
-    technologiesTag: ["React", "CSS", "Node.js", "Express", "MySQL"],
-    websiteUrl: "https://www.google.com/",
-    imageUrl: test,
-  },
-  {
-    title: "Quick Blog",
-    desc: "A Full-Stack blog application that allows users to create, delete and update their own blogs and view other people blogs. The application also let users to sort blogs by categories",
-    technologiesTag: ["React", "CSS", "Node.js", "Express", "MySQL"],
-    websiteUrl: "https://www.google.com/",
-    imageUrl: test,
-  },
-  {
-    title: "Quick Blog",
-    desc: "A Full-Stack blog application that allows users to create, delete and update their own blogs and view other people blogs. The application also let users to sort blogs by categories",
-    technologiesTag: ["React", "CSS", "Node.js", "Express", "MySQL"],
-    websiteUrl: "https://www.google.com/",
-    imageUrl: test,
+    title: "Quiz Application",
+    desc: "A fully functional quiz application with timer, score, and different topics that users can select. The app fetches questions and answers from an open-source database https://opentdb.com",
+    technologiesTag: ["HTML", "CSS", "Javascript"],
+    websiteUrl: "https://son-vo-2000.github.io/quiz_app/",
+    imageUrl: quizImage,
   },
 ] as const;
 
-import js from '../public/images/js.png';
-import html from '../public/images/html.png';
-import css from '../public/images/css-3.png';
-import react from '../public/images/react.png';
-import typescript from '../public/images/typescript.png';
-import reactNative from '../public/images/react_native.png';
-import tailwind from '../public/images/tailwind.png';
-import redux from '../public/images/redux.png';
-import node from '../public/images/nodejs.png';
-import express from '../public/images/express-logo.png';
-import c from '../public/images/c-.png';
-import next from '../public/images/nextjs-boilerplate-logo.png';
-import mongodb from '../public/images/mongo.png';
-import sql from '../public/images/sql.png';
-import figma from '../public/images/figma.png';
-import github from '../public/images/github.png';
+import js from "../public/images/js.png";
+import html from "../public/images/html.png";
+import css from "../public/images/css-3.png";
+import react from "../public/images/react.png";
+import typescript from "../public/images/typescript.png";
+import reactNative from "../public/images/react_native.png";
+import tailwind from "../public/images/tailwind.png";
+import redux from "../public/images/redux.png";
+import node from "../public/images/nodejs.png";
+import express from "../public/images/express-logo.png";
+import c from "../public/images/c-.png";
+import next from "../public/images/nextjs-boilerplate-logo.png";
+import mongodb from "../public/images/mongo.png";
+import sql from "../public/images/sql.png";
+import figma from "../public/images/figma.png";
+import github from "../public/images/github.png";
+import docker from '../public/images/docker.png'
 
 export const skills = [
   {
@@ -62,7 +68,7 @@ export const skills = [
     skill: [
       { title: "HTML 5", icon: html },
       { title: "CSS 3", icon: css },
-      { title: "Javascript", icon:js},
+      { title: "Javascript", icon: js },
       { title: "React", icon: react },
       { title: "Typescript", icon: typescript },
       { title: "React Native", icon: reactNative },
@@ -75,7 +81,7 @@ export const skills = [
     skill: [
       { title: "Node JS", icon: node },
       { title: "Express", icon: express },
-      { title: "C++", icon:c},
+      { title: "C++", icon: c },
       { title: "Next JS", icon: next },
       { title: "MongoDB", icon: mongodb },
       { title: "MySQL", icon: sql },
@@ -86,6 +92,7 @@ export const skills = [
     skill: [
       { title: "Figma", icon: figma },
       { title: "Github", icon: github },
+      {title: "Docker", icon:docker}
     ],
   },
 ];

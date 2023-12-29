@@ -13,7 +13,7 @@ const Projects = () => {
       <SectionHeading>My Projects</SectionHeading>
       <div className="flex flex-col gap-8 ">
         {projects.map((project, index) => (
-          <ProjectItems project={project} index={index} />
+          <ProjectItems key={index} project={project} index={index} />
         ))}
       </div>
     </section>

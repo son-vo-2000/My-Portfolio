@@ -17,7 +17,7 @@ const About = () => {
       className="flex flex-col scroll-mt-28 items-center justify-center text-center mb-28 max-w-[50rem] sm:mb-60"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-xl">
+      <p className="mb-3 sm:text-xl">
         I'm a recent graduate from The Southern University of Mississippi with a{" "}
         <span className="font-bold">Bachelor degree in Computer Science.</span>{" "}
         Coding and problem-solving have been my guiding passions throughout my
@@ -26,7 +26,7 @@ const About = () => {
         work enviroment. Now, I'm excited to take the knowledge I've learned and
         apply it to the real world.
       </p>
-      <p className="mb-3 text-xl">
+      <p className="mb-3 sm:text-xl">
         In my free time, I enjoy playing video game, watching movies, and
         reading news.
       </p>

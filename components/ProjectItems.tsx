@@ -43,6 +43,7 @@ const ProjectItems = ({ project, index }: ProjectItemsProps) => {
         >
           <h3 className="text-2xl font-semibold">{project.title}</h3>
           <p className=" dark:text-white mt-2 leading-relaxed text-gray-700">{project.desc}</p>
+          {project.note && <p className="mt-2">{project.note} <br/> <small>Note: If the app freezes please refresh and give it 1 minute. Thank you</small> </p>}
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {project.technologiesTag.map((tag: string, index: number) => (
               <li
