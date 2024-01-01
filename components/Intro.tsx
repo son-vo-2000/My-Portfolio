@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import avatar from "../public/images/test.jpg";
+import avatar from "../public/images/avata2.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
@@ -30,7 +30,7 @@ const Intro = () => {
         }}
       >
         <Image
-          className="h-26 w-26  rounded-lg broder-[0.35rem] border-white shadow-xl"
+          className="h-26 w-26 rounded-lg broder-[0.35rem] border-white shadow-xl"
           src={avatar}
           priority={true}
           quality="95"
