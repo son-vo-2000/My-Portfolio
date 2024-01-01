@@ -18,12 +18,12 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 sm:text-xl">
-        I'm a recent graduate from The Southern University of Mississippi with a{" "}
-        <span className="font-bold">Bachelor degree in Computer Science.</span>{" "}
+        I am a recent graduate from The Southern University of Mississippi with a
+        <span className="font-bold">Bachelor degree in Computer Science.</span>
         Coding and problem-solving have been my guiding passions throughout my
-        time at the university. I'm a{" "}
+        time at the university. I am a
         <span className="font-bold">fast learner</span> and easily adapts to any
-        work enviroment. Now, I'm excited to take the knowledge I've learned and
+        work enviroment. Now, I am excited to take the knowledge I have learned and
         apply it to the real world.
       </p>
       <p className="mb-3 sm:text-xl">

@@ -1,10 +1,11 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
+import{ useState, useEffect } from "react"
 import { BsSun, BsMoonFill } from "react-icons/bs";
 
 type ThemeType = "light" | "dark";
 
-const themeMode = () => {
+const ThemeMode = () => {
   const [theme, setTheme] = useState<ThemeType>("light");
 
   const switchTheme = () => {
@@ -50,4 +51,4 @@ const themeMode = () => {
   );
 };
 
-export default themeMode;
+export default ThemeMode;
