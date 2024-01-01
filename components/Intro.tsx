@@ -64,7 +64,7 @@ const Intro = () => {
             <BsArrowRight className="group-hover:translate-x-1 transition" />
           </Link>
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             download
             className="group bg-white text-black cursor-pointer outline-none py-2 sm:px-6 sm:py-3 flex items-center justify-center gap-1 rounded-full sm:hover:scale-110 transition border border-black/10"
           >
