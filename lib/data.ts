@@ -17,7 +17,7 @@ export const projects = [
     title: "AI Image Generator",
     desc: "Created AI image generator by fetching and retrieving data from OpenAI API. The application generates AI images base on users' input",
     technologiesTag: ["Next.js", "Tailwind CSS", "typescript"],
-    websiteUrl: "https://ai-image-app.vercel.app/",
+    websiteUrl: "https://youtu.be/VTD4UO77NZ8",
     imageUrl: aiImage,
   },
   {
@@ -30,9 +30,8 @@ export const projects = [
   {
     title: "Manage Your Fitness",
     desc: "A Full-stack web application that allow users to keep track of their clients execirses. The application is based on CRUD concept, that's used to create, read, update & delete data.",
-    note: "Demo: ken | 123456",
     technologiesTag: ["React", "CSS", "Node.js", "Express", "MongoDB"],
-    websiteUrl: "https://getfit-erht.onrender.com/",
+    websiteUrl: "https://youtu.be/MHKPvbi9Jeo",
     imageUrl: getFitImage,
   },
   {
@@ -54,13 +53,15 @@ import tailwind from "../public/images/tailwind.png";
 import redux from "../public/images/redux.png";
 import node from "../public/images/nodejs.png";
 import express from "../public/images/express-logo.png";
-import c from "../public/images/c-.png";
+import c from "../public/images/c-sharp.png";
 import next from "../public/images/nextjs-boilerplate-logo.png";
 import mongodb from "../public/images/mongo.png";
 import sql from "../public/images/sql.png";
 import figma from "../public/images/figma.png";
 import github from "../public/images/github.png";
-import docker from '../public/images/docker.png'
+import docker from '../public/images/docker.png';
+import asp from '../public/images/web.png';
+import bootstrap from '../public/images/bootstrap.png'
 
 export const skills = [
   {
@@ -73,6 +74,7 @@ export const skills = [
       { title: "Typescript", icon: typescript },
       { title: "React Native", icon: reactNative },
       { title: "Tailwind CSS", icon: tailwind },
+      { title: "Bootstrap", icon: bootstrap },
       { title: "Redux toolkit", icon: redux },
     ],
   },
@@ -81,7 +83,8 @@ export const skills = [
     skill: [
       { title: "Node JS", icon: node },
       { title: "Express", icon: express },
-      { title: "C++", icon: c },
+      { title: "C#", icon: c },
+      { title: "ASP.NET Core", icon: asp },
       { title: "Next JS", icon: next },
       { title: "MongoDB", icon: mongodb },
       { title: "MySQL", icon: sql },
