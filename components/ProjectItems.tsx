@@ -20,30 +20,39 @@ const ProjectItems = ({ project, index }: ProjectItemsProps) => {
 
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const translateXProgress = useTransform(scrollYProgress, [0, 1], [-100, 0]);
+
   return (
     <motion.div
       ref={ref}
       style={{
         scale: scaleProgess,
         opacity: opacityProgess,
-        translateX:translateXProgress
       }}
       className="group"
     >
       <section
         className="dark:bg-gray-700 hover:dark:bg-gray-500 bg-gray-100 hover:bg-gray-200 transition 
-       border relative rounded-lg border-black/5 
-      overflow-hidden sm:h-[25rem]"
+       border rounded-lg border-black/5 
+      overflow-hidden sm:h-[30rem] sm:flex"
         key={index}
       >
         <div
           className="h-full flex flex-col pt-4 pb-7 px-4 sm:pl-10 sm:pr-2 sm:pt-10 
-      max-w-[100%] sm:max-w-[50%]  sm:group-even:ml-[22rem]"
+      max-w-[100%] sm:max-w-[50%]  "
         >
           <h3 className="text-2xl font-semibold">{project.title}</h3>
-          <p className=" dark:text-white mt-2 leading-relaxed text-gray-700">{project.desc}</p>
-          {project.note && <p className="mt-2">{project.note} <br/> <small>Note: If the app freezes please refresh and give it 1 minute. Thank you</small> </p>}
+          <p className=" dark:text-white mt-2 leading-relaxed text-gray-700">
+            {project.desc}
+          </p>
+          {project.note && (
+            <p className="mt-2">
+              {project.note} <br />{" "}
+              <small>
+                Note: If the app freezes please refresh and give it 1 minute.
+                Thank you
+              </small>{" "}
+            </p>
+          )}
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {project.technologiesTag.map((tag: string, index: number) => (
               <li
@@ -64,29 +73,17 @@ const ProjectItems = ({ project, index }: ProjectItemsProps) => {
             Launch App <MdLaunch />
           </a>
         </div>
-
-        <a
-          className="hidden sm:block sm:absolute sm:top-10 sm:-right-[6rem] 
-        sm:max-w-[50%]  h-full 
-        sm:group-even:-left-[6rem] 
-        group-hover:-translate-x-7 
-        group-hover:translate-y-3 
-        group-hover:scale-[1.04]
-        group-hover:-rotate-3 
-        group-even:group-hover:translate-x-7 
-        group-even:group-hover:-translate-y-2 
-        group-even:group-hover:rotate-3 
-        transition"
-          href={project.websiteUrl}
-          target="_blank"
+        <div
+          className=" hidden sm:flex flex-col text-center p-2 transition align-center justify-center "
         >
           <Image
-            className="w-[28.25rem] rounded-lg "
+            className="w-[27rem] rounded-xl h-[80%] mb-6 hover:scale-95 transition"
             src={project.imageUrl}
             alt={project.title}
             quality={95}
           ></Image>
-        </a>
+          <a className="rounded-xl py-2 text-white bg-orange-500 hover:bg-orange-600" href={project.websiteUrl} target="_blank">Visit</a>
+        </div>
       </section>
     </motion.div>
   );
