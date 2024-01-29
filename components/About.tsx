@@ -23,7 +23,7 @@ const About = () => {
         Coding and problem-solving have been my guiding passions throughout my
         time at the university. I am a
         <span className="font-bold text-orange-700"> fast learner</span> and easily adapts to any
-        work enviroment. Now, I am excited to take the knowledge I have learned and
+        work enviroment. I am excited to take the knowledge I have learned and
         apply it to the real world.
       </p>
       <p className="mb-3 sm:text-xl">

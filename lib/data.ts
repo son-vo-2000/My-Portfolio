@@ -17,7 +17,7 @@ export const projects = [
     title: "AI Image Generator",
     desc: "Created AI image generator by fetching and retrieving data from OpenAI API. The application generates AI images base on users' input",
     technologiesTag: ["Next.js", "Tailwind CSS", "typescript"],
-    websiteUrl: "https://youtu.be/VTD4UO77NZ8",
+    websiteUrl: "https://ai-image-app.vercel.app/",
     imageUrl: aiImage,
   },
   {

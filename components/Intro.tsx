@@ -48,7 +48,7 @@ const Intro = () => {
           <h1 className="text-4xl !leading-[1.5] sm:text-5xl font-bold">
             Full-Stack Engineer
           </h1>
-          <span className="text-md">
+          <span className="text-md font-light">
             Hi, My name is Son Vo. An engineer with a passion of coding and
             solving problems.
           </span>
