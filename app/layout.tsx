@@ -19,9 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" >
       <body
-        className={` ${inter.className} relative  bg-gray-50 dark:bg-gray-900 dark:text-gray-50  text-gray-950`}
+        className={` ${inter.className}  bg-gray-50 dark:bg-gray-900 dark:text-gray-50  text-gray-950`}
       >
-        
         <ActivePageProvider>
           <Header />
           {children}

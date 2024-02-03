@@ -14,7 +14,7 @@ const About = () => {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ deplay: 0.175 }}
-      className="flex flex-col scroll-mt-28 items-center justify-center text-center mb-28 max-w-[50rem] sm:mb-60"
+      className="flex flex-col scroll-mt-28 items-center justify-center text-center mb-28 max-w-[1264px] sm:mb-60"
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 sm:text-xl">

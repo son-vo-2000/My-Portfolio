@@ -18,7 +18,7 @@ const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="scroll-mt-[100rem] mb-28 sm:mb-0 flex items-center text-center flex-col justify-center sm:flex-row-reverse sm:justify-between  gap-20"
+      className="scroll-mt-[100rem] max-w-[1264px] my-28 sm:mb-0 flex items-center text-center flex-col justify-center sm:flex-row-reverse sm:justify-between  gap-20"
     >
       <motion.div
         className="flex items-center"

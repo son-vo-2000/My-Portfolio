@@ -10,7 +10,7 @@ const SectionDiv = () => {
       transition={{
         deplay:0.125
       }}
-      className="bg-gray-200 dark:bg-opacity-50 my-24 h-20 w-1 rounded-full hidden sm:block"
+      className="bg-gray-200 dark:bg-opacity-50 my-40 h-20 w-1 rounded-full hidden sm:block"
     ></motion.div>
   );
 };

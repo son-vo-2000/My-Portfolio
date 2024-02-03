@@ -9,7 +9,7 @@ const Projects = () => {
   const {ref} = useScrollHook("Project", 0.5)
 
   return (
-    <section ref={ref} id="project" className=" scroll-mt-28 max-w-[70rem] mb-28 sm:mb-60">
+    <section ref={ref} id="project" className=" scroll-mt-28 max-w-[1264px] mb-28 sm:mb-60">
       <SectionHeading>My Projects</SectionHeading>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
         {projects.map((project, index) => (
